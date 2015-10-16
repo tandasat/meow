@@ -46,6 +46,7 @@ your system already has right symbol files.
 Then, run install.bat with the administrator privilege. It installs and starts
 the driver, launches PowerShell for displaying log and a support program
 meow_client.exe to install hooks and deactivate PatchGuard.
+![Typical output on RT](/img/RT.png)
 
 It is advised to keep meow.sys running to make sure that PatchGuard is
 completely disabled otherwise PatchGuard may detect your modification if you
