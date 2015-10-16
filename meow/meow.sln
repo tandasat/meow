@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "meow", "meow\meow.vcxproj", "{287B2687-2894-4AA5-A5A9-686AE6C5F34A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "meow_client", "meow_client\meow_client.vcxproj", "{925F613D-74F4-406E-BE34-489BDD69DDF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{26B330F9-5A26-4585-85CF-D2938D0369BB}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\.gitmodules = ..\.gitmodules
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "meow", "meow", "{371FA80F-7424-4D0C-87FC-95744F6E8F00}"
+	ProjectSection(SolutionItems) = preProject
+		.clang-format = .clang-format
+		clean.bat = clean.bat
+		install.bat = install.bat
+		uninstall.bat = uninstall.bat
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|arm = Debug|arm
+		Debug|x64 = Debug|x64
+		Release|arm = Release|arm
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{287B2687-2894-4AA5-A5A9-686AE6C5F34A}.Debug|arm.ActiveCfg = Debug|arm
+		{287B2687-2894-4AA5-A5A9-686AE6C5F34A}.Debug|arm.Build.0 = Debug|arm
+		{287B2687-2894-4AA5-A5A9-686AE6C5F34A}.Debug|x64.ActiveCfg = Debug|x64
+		{287B2687-2894-4AA5-A5A9-686AE6C5F34A}.Debug|x64.Build.0 = Debug|x64
+		{287B2687-2894-4AA5-A5A9-686AE6C5F34A}.Release|arm.ActiveCfg = Release|arm
+		{287B2687-2894-4AA5-A5A9-686AE6C5F34A}.Release|arm.Build.0 = Release|arm
+		{287B2687-2894-4AA5-A5A9-686AE6C5F34A}.Release|x64.ActiveCfg = Release|x64
+		{287B2687-2894-4AA5-A5A9-686AE6C5F34A}.Release|x64.Build.0 = Release|x64
+		{925F613D-74F4-406E-BE34-489BDD69DDF7}.Debug|arm.ActiveCfg = Debug|arm
+		{925F613D-74F4-406E-BE34-489BDD69DDF7}.Debug|arm.Build.0 = Debug|arm
+		{925F613D-74F4-406E-BE34-489BDD69DDF7}.Debug|x64.ActiveCfg = Debug|x64
+		{925F613D-74F4-406E-BE34-489BDD69DDF7}.Debug|x64.Build.0 = Debug|x64
+		{925F613D-74F4-406E-BE34-489BDD69DDF7}.Release|arm.ActiveCfg = Release|arm
+		{925F613D-74F4-406E-BE34-489BDD69DDF7}.Release|arm.Build.0 = Release|arm
+		{925F613D-74F4-406E-BE34-489BDD69DDF7}.Release|arm.Deploy.0 = Release|arm
+		{925F613D-74F4-406E-BE34-489BDD69DDF7}.Release|x64.ActiveCfg = Release|x64
+		{925F613D-74F4-406E-BE34-489BDD69DDF7}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{371FA80F-7424-4D0C-87FC-95744F6E8F00} = {26B330F9-5A26-4585-85CF-D2938D0369BB}
+	EndGlobalSection
+EndGlobal

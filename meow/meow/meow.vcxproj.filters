@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\../Common">
+      <UniqueIdentifier>{e24d7c43-af6b-4430-9f6f-7e9907caa1b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\../Common\ScopedResource">
+      <UniqueIdentifier>{44082a1d-9f05-42e9-b7cd-db78af9eb8ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\arch">
+      <UniqueIdentifier>{98423dc1-0f20-409e-822c-f083612d16be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\arch\arm">
+      <UniqueIdentifier>{d5b40972-5d4a-4a1b-bb26-5aed7d8862cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\arch\amd64">
+      <UniqueIdentifier>{34697a76-7815-4bdc-9e72-aea83aaa4e50}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="asm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\meow_ioctl.h">
+      <Filter>Header Files\../Common</Filter>
+    </ClInclude>
+    <ClInclude Include="dispg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exclusivity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ScopedResource\scope_exit.h">
+      <Filter>Header Files\../Common\ScopedResource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ScopedResource\unique_resource.h">
+      <Filter>Header Files\../Common\ScopedResource</Filter>
+    </ClInclude>
+    <ClInclude Include="fnparse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="meow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dispg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exclusivity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arch\amd64\fnparse.cpp">
+      <Filter>Source Files\arch\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="arch\arm\fnparse.cpp">
+      <Filter>Source Files\arch\arm</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="arch\amd64\amd64.asm">
+      <Filter>Source Files\arch\amd64</Filter>
+    </MASM>
+    <MASM Include="arch\arm\arm.asm">
+      <Filter>Source Files\arch\arm</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="arch\amd64\common.inc">
+      <Filter>Source Files\arch\amd64</Filter>
+    </None>
+  </ItemGroup>
+</Project>
