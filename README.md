@@ -6,7 +6,7 @@ depends on magic values specific to build versions.
 
 A related blog entry can be found here:
 
-    http://standa-note.blogspot.ca/2015/03/section-based-code-injection-and-its.html
+    http://standa-note.blogspot.ca/2015/10/some-tips-to-analyze-patchguard.html
 
 
 If you are targeting Windows 7 or older, you can use
